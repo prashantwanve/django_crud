@@ -1,0 +1,33 @@
+{% extends 'layout.html' %}
+{% block title %}
+    <title>Show</title>
+{% endblock %}
+
+{% block content1 %}
+<center>
+    <h1>Item List</h1>
+    <table class="table table-success table-striped">
+        <thead>
+            <tr>
+                <th>Number</th>
+                <th>Name</th>
+                <th>Price</th>
+                <th>operation</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for i in data %}
+            <tr>
+                <td>{{i.Number}}</td>
+                <td>{{i.Name}}</th>
+                <td>{{i.price}}</td>
+            <td>
+            <a href="{% url 'Update_Items' i.Number %}"><button class="btn btn-primary">Update</button></a>
+            <a href="{% url 'Delete_Items' i.Number %}"><button class="btn btn-danger">Delete</button></a>
+            </td>
+        </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</center>
+{% endblock %}

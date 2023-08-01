@@ -1,0 +1,19 @@
+INFO 2023-08-02 00:19:20,375 autoreload 11836 9364 Watching for file changes with StatReloader
+INFO 2023-08-02 00:19:56,722 views 11836 1848 Item found
+INFO 2023-08-02 00:19:56,894 views 11836 1848 record is updated
+INFO 2023-08-02 00:20:12,140 views 11836 1848 items found
+INFO 2023-08-02 00:20:15,352 views 11836 1848 item to be deleted is found
+INFO 2023-08-02 00:20:15,540 views 11836 1848 items found
+WARNING 2023-08-02 00:20:32,437 log 11836 1848 Not Found: /home/Show_Items/5
+INFO 2023-08-02 00:21:42,155 views 11836 1848 item to be deleted is found
+INFO 2023-08-02 00:21:42,353 views 11836 1848 items found
+INFO 2023-08-02 00:22:21,380 autoreload 11836 9364 D:\python practical\practice_projects\django_crud_logging\proj1\app1\views.py changed, reloading.
+INFO 2023-08-02 00:22:22,248 autoreload 1176 6772 Watching for file changes with StatReloader
+ERROR 2023-08-02 00:23:31,157 views 1176 13532 invalid details  added
+INFO 2023-08-02 00:23:31,169 views 1176 13532 items found
+INFO 2023-08-02 00:23:59,953 views 1176 13532 new Item added
+ERROR 2023-08-02 00:24:04,918 views 1176 13532 invalid details  added
+INFO 2023-08-02 00:24:04,924 views 1176 13532 items found
+INFO 2023-08-02 00:24:10,398 views 1176 13532 item to be deleted is found
+INFO 2023-08-02 00:24:10,580 views 1176 13532 items found
+INFO 2023-08-02 00:24:17,004 views 1176 13532 items found

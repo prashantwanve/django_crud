@@ -1,0 +1,19 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="margin:auto;">
+        <h1>Confirmation</h1>
+        <h2>Do you want to delete the record?</h2>
+        <form method="post">
+            {% csrf_token %}
+            <input type="submit" value="yes" class="btn btn-danger col-4">
+            <a href="{% url 'Show_Items' %}"><button class="btn btn-warning col-4">No</button></a>
+        </form>
+    
+    </div>
+</body>
+</html>

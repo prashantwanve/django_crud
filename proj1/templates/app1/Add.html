@@ -1,0 +1,18 @@
+{% extends 'layout.html' %}
+{% block title %}
+    <title>Add</title>
+{% endblock %}
+
+{% block content1 %}
+<center>
+    <h1><b><i>Item Form</i></b></h1>
+    <form method="post">
+        {% csrf_token %}
+        {{form.as_p}}
+        <button type="submit" class="btn btn-success col-4">Add</button>
+        <button type="reset" class="btn btn-warning col-4">Reset</button>
+    </form>
+</center>
+
+
+{% endblock %}
